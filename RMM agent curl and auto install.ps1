@@ -1,8 +1,8 @@
 ﻿Read-Host -Promt "Please ensure no other installers are running, if this is true press enter to continue"
 
-curl "#Instert URL of needed RMM agent here#" -o c:\windows\temp\ #Name the file here remebering to add required file extention
+curl "#Instert URL of needed RMM agent here#" -o c:\windows\temp\ #Name the file here remebering to add required file extention if possible use .msi extention as windows OS seems to like it better than .exe
 
-#The above is the URL and the path to where the syncro installer is located, if you run into any issues
+#The above is the URL and the path to where the syncro installer is located, if you run into any issues -- this line I keep in the script to help any tech using it
 
 c:\windows\temp\ #input file name you used on line 3 after the output command --console --customerid  --folderid # <--- this is a Syncro specific line, if not using Sycnro everything after the file extention can be removed on this line
 
